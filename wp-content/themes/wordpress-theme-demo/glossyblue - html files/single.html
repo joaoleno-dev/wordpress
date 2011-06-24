@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>single.html</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="page">
+	<div id="header">
+		<div id="headerimg">
+			<h1><a href="#">My Blog</a></h1>
+			<div class="description">Blog Description</div>
+		</div>
+		<ul id="nav">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Portfolio</a></li>
+			<li><a href="#">Links</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</div>
+	<!--/header -->
+	<div id="content">
+		<div class="post">
+			<h2>Sample Blog Entry</h2>
+			<span class="post-cat"><a href="#">News</a></span> <span class="post-calendar">Oct 18, 2006</span>
+			<div class="entry">
+				<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+				<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+				<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+			</div>
+			<h3 id="comments">2 Responses to &#8220;Hello world!&#8221;</h3>
+			<ol class="commentlist">
+				<li class="alt" id="comment-1"> <cite><a href='http://wordpress.org/' rel='external nofollow'>Mr WordPress</a></cite> Says:<br />
+					<small class="commentmetadata"><a href="#comment-1" title="">October 22nd, 2006 at 9:53 pm</a></small>
+					<p>Hi, this is a comment.<br />
+						To delete a comment, just log in, and view the posts&#8217; comments, there you will have the option to edit or delete them.</p>
+				</li>
+				<li class="" id="comment-2"> <cite>nick</cite> Says:<br />
+					<small class="commentmetadata"><a href="#comment-2" title="">October 23rd, 2006 at 1:59 pm</a></small>
+					<p>Test comments&#8230;</p>
+				</li>
+			</ol>
+			<h3 id="respond">Leave a Reply</h3>
+			<form action="http://localhost:8888/mysite/wp-comments-post.php" method="post" id="commentform">
+				<p>
+					<input type="text" name="author" id="author" value="" size="22" tabindex="1" />
+					<label for="author"><small>Name (required)</small></label>
+				</p>
+				<p>
+					<input type="text" name="email" id="email" value="" size="22" tabindex="2" />
+					<label for="email"><small>Mail (will not be published) (required)</small></label>
+				</p>
+				<p>
+					<input type="text" name="url" id="url" value="" size="22" tabindex="3" />
+					<label for="url"><small>Website</small></label>
+				</p>
+				<p>
+					<textarea name="comment" id="comment" cols="50" rows="10" tabindex="4"></textarea>
+				</p>
+				<p>
+					<input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" />
+					<input type="hidden" name="comment_post_ID" value="4" />
+				</p>
+			</form>
+		</div>
+	</div>
+	<!--/content -->
+	<form method="get" id="searchform" action="http://localhost:8888/mysite/">
+		<label for="s">Search</label>
+		<input type="text" value="" name="s" id="s" />
+		<input type="submit" id="searchsubmit" value="GO" />
+	</form>
+	<div id="sidebar">
+		<h3>Category</h3>
+		<ul class="ul-cat">
+			<li><a href="#">Uncategorized</a></li>
+			<li><a href="#">News &amp; Update</a></li>
+			<li><a href="#">Design</a></li>
+		</ul>
+		<h3>Archives</h3>
+		<ul class="ul-archives">
+			<li><a href="#">October 2006</a></li>
+			<li><a href="#">September 2006</a></li>
+			<li><a href="#">August 2006</a></li>
+		</ul>
+	</div>
+	<!--/sidebar -->
+	<div id="footer">
+		<div class="left-col">
+			<h4>Recent Posts </h4>
+			<ul class="recent-posts">
+				<li>10/23/2006<br />
+					<a href="#">Blog Title Text</a></li>
+				<li>10/23/2006<br />
+					<a href="#">Test Blog Entry Title</a></li>
+				<li>10/23/2006<br />
+					<a href="#">Some Blog Entry</a></li>
+				<li>10/23/2006<br />
+					<a href="#">Test Blog Title </a></li>
+			</ul>
+		</div>
+		<div class="left-col">
+			<h4>Recently Commented</h4>
+			<ul class="recent-comments">
+				<li><a href="#">Nick:</a> This is a test comment</li>
+				<li><a href="#">Jen:</a> Hello, nice day!</li>
+				<li><a href="#">Someone:</a> Wow, this is another test comment</li>
+				<li><a href="#">Admin:</a> This is a comment</li>
+			</ul>
+		</div>
+		<div class="right-col">
+			<h4>About</h4>
+			<p>Welcome to my design blog and portfolio showcase. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p>
+			<p>Feel free to <a href="#"> contact me.</a></p>
+		</div>
+		<hr class="clear" />
+	</div>
+	<!--/footer -->
+</div>
+<!--/page -->
+<div id="credits"><span class="left">Powered by <a href="http://www.wordpress.org">WordPress</a> | Theme by <a href="http://www.ndesign-studio.com">N.Design Studio</a></span> <span class="right"><a href="#" class="rss">Entries RSS</a> <a href="#" class="rss">Comments RSS</a></span></div>
+</body>
+</html>

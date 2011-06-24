@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>index.html</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="page">
+	<div id="header">
+		<div id="headerimg">
+			<h1><a href="#">My Blog</a></h1>
+			<div class="description">Blog Description</div>
+		</div>
+		<ul id="nav">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Portfolio</a></li>
+			<li><a href="#">Links</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</div>
+	<!--/header -->
+	<div id="content">
+		<div class="post">
+			<div class="post-date"><span class="post-month">Oct</span> <span class="post-day">13</span></div>
+			<div class="post-title">
+				<h2><a href="#">Sample Blog Entry</a></h2>
+				<span class="post-cat"><a href="#">News</a></span> <span class="post-comments"><a href="#">3 comments</a></span> 
+			</div>
+			<div class="entry">
+				<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. <a href="#">Read more...</a> </p>
+			</div>
+		</div>
+		<div class="navigation"> <span class="previous-entries"><a href="#">Previous Entries</a></span> <span class="next-entries"><a href="#">Next Entries</a></span> </div>
+	</div>
+	<!--/content -->
+	<form method="get" id="searchform" action="http://localhost:8888/mysite/">
+		<label for="s">Search</label>
+		<input type="text" value="" name="s" id="s" />
+		<input type="submit" id="searchsubmit" value="GO" />
+	</form>
+	<div id="sidebar">
+		<h3>Category</h3>
+		<ul class="ul-cat">
+			<li><a href="#">Uncategorized</a></li>
+			<li><a href="#">News &amp; Update</a></li>
+			<li><a href="#">Design</a></li>
+		</ul>
+		<h3>Archives</h3>
+		<ul class="ul-archives">
+			<li><a href="#">October 2006</a></li>
+			<li><a href="#">September 2006</a></li>
+			<li><a href="#">August 2006</a></li>
+		</ul>
+	</div>
+	<!--/sidebar -->
+	<div id="footer">
+		<div class="left-col">
+			<h4>Recent Posts </h4>
+			<ul class="recent-posts">
+				<li><a href="#">Blog Title Text</a><br />
+					10/23/2006</li>
+				<li><a href="#">Blog Title</a><br />
+					10/23/2006</li>
+				<li><a href="#">Title Text</a><br />
+					10/23/2006</li>
+				<li><a href="#">Sample Blog Title</a><br />
+					10/23/2006</li>
+			</ul>
+		</div>
+		<div class="left-col">
+			<h4>Recently Commented</h4>
+			<ul class="recent-comments">
+				<li><a href="#">Nick:</a> This is a test comment</li>
+				<li><a href="#">Jen:</a> Hello, nice day!</li>
+				<li><a href="#">Someone:</a> Wow, this is another test comment</li>
+				<li><a href="#">Admin:</a> This is a comment</li>
+			</ul>
+		</div>
+		<div class="right-col">
+			<h4>About</h4>
+			<p>Welcome to my design blog and portfolio showcase. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p>
+			<p>Feel free to <a href="#"> contact me.</a></p>
+		</div>
+		<hr class="clear" />
+	</div>
+	<!--/footer -->
+</div>
+<!--/page -->
+<div id="credits"><span class="left">Powered by <a href="http://www.wordpress.org">WordPress</a> | Theme by <a href="http://www.ndesign-studio.com">N.Design Studio</a></span> <span class="right"><a href="#" class="rss">Entries RSS</a> <a href="#" class="rss">Comments RSS</a></span></div>
+</body>
+</html>
